@@ -15,7 +15,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // 1st  start app by writing code here
+        // window -> navCtrl -> cryptoTableVC
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let cryptoTableVC = CryptoTableViewController() // create new View controller "cryptoTableVC"
+        let navController = UINavigationController(rootViewController: cryptoTableVC)
+        // window?.rootViewController = cryptoTableVC
+        window?.rootViewController = navController
+        
+        window?.makeKeyAndVisible()
         return true
     }
 

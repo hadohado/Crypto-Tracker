@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06983F68903D330289AED43B /* Pods_Crypto_Tracker_my.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F493086CEA0933C355A8AD45 /* Pods_Crypto_Tracker_my.framework */; };
 		7B3FCFCB219A51EB003BE8D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3FCFCA219A51EB003BE8D9 /* AppDelegate.swift */; };
-		7B3FCFCD219A51EB003BE8D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3FCFCC219A51EB003BE8D9 /* ViewController.swift */; };
-		7B3FCFD0219A51EB003BE8D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3FCFCE219A51EB003BE8D9 /* Main.storyboard */; };
 		7B3FCFD2219A51EF003BE8D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3FCFD1219A51EF003BE8D9 /* Assets.xcassets */; };
 		7B3FCFD5219A51EF003BE8D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3FCFD3219A51EF003BE8D9 /* LaunchScreen.storyboard */; };
+		7B3FCFDD219A54DA003BE8D9 /* CryptoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3FCFDC219A54DA003BE8D9 /* CryptoTableViewController.swift */; };
+		7B3FCFDF219A5A5E003BE8D9 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3FCFDE219A5A5E003BE8D9 /* CoinData.swift */; };
+		7B3FCFE1219A60DC003BE8D9 /* CryptoTableVCtrl_save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3FCFE0219A60DC003BE8D9 /* CryptoTableVCtrl_save.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B3FCFC7219A51EB003BE8D9 /* Crypto Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		087B3E7E1AF84D8871348189 /* Pods-Crypto Tracker my.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Tracker my.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto Tracker my/Pods-Crypto Tracker my.debug.xcconfig"; sourceTree = "<group>"; };
+		7B3FCFC7219A51EB003BE8D9 /* Crypto Tracker my.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crypto Tracker my.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B3FCFCA219A51EB003BE8D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7B3FCFCC219A51EB003BE8D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7B3FCFCF219A51EB003BE8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B3FCFD1219A51EF003BE8D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B3FCFD4219A51EF003BE8D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B3FCFD6219A51EF003BE8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B3FCFDC219A54DA003BE8D9 /* CryptoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewController.swift; sourceTree = "<group>"; };
+		7B3FCFDE219A5A5E003BE8D9 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
+		7B3FCFE0219A60DC003BE8D9 /* CryptoTableVCtrl_save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoTableVCtrl_save.swift; sourceTree = "<group>"; };
+		DC37487B6F60B21FB6325403 /* Pods-Crypto Tracker my.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Tracker my.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto Tracker my/Pods-Crypto Tracker my.release.xcconfig"; sourceTree = "<group>"; };
+		F493086CEA0933C355A8AD45 /* Pods_Crypto_Tracker_my.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crypto_Tracker_my.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,24 +35,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06983F68903D330289AED43B /* Pods_Crypto_Tracker_my.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6FE0D1924FC0BAEDD7DD3048 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				087B3E7E1AF84D8871348189 /* Pods-Crypto Tracker my.debug.xcconfig */,
+				DC37487B6F60B21FB6325403 /* Pods-Crypto Tracker my.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7B3FCFBE219A51EB003BE8D9 = {
 			isa = PBXGroup;
 			children = (
 				7B3FCFC9219A51EB003BE8D9 /* Crypto Tracker */,
 				7B3FCFC8219A51EB003BE8D9 /* Products */,
+				6FE0D1924FC0BAEDD7DD3048 /* Pods */,
+				F35ED4D8D680F5B0574E2528 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		7B3FCFC8219A51EB003BE8D9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B3FCFC7219A51EB003BE8D9 /* Crypto Tracker.app */,
+				7B3FCFC7219A51EB003BE8D9 /* Crypto Tracker my.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,8 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				7B3FCFCA219A51EB003BE8D9 /* AppDelegate.swift */,
-				7B3FCFCC219A51EB003BE8D9 /* ViewController.swift */,
-				7B3FCFCE219A51EB003BE8D9 /* Main.storyboard */,
+				7B3FCFDE219A5A5E003BE8D9 /* CoinData.swift */,
+				7B3FCFDC219A54DA003BE8D9 /* CryptoTableViewController.swift */,
+				7B3FCFE0219A60DC003BE8D9 /* CryptoTableVCtrl_save.swift */,
 				7B3FCFD1219A51EF003BE8D9 /* Assets.xcassets */,
 				7B3FCFD3219A51EF003BE8D9 /* LaunchScreen.storyboard */,
 				7B3FCFD6219A51EF003BE8D9 /* Info.plist */,
@@ -64,24 +83,34 @@
 			path = "Crypto Tracker";
 			sourceTree = "<group>";
 		};
+		F35ED4D8D680F5B0574E2528 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F493086CEA0933C355A8AD45 /* Pods_Crypto_Tracker_my.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B3FCFC6219A51EB003BE8D9 /* Crypto Tracker */ = {
+		7B3FCFC6219A51EB003BE8D9 /* Crypto Tracker my */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B3FCFD9219A51EF003BE8D9 /* Build configuration list for PBXNativeTarget "Crypto Tracker" */;
+			buildConfigurationList = 7B3FCFD9219A51EF003BE8D9 /* Build configuration list for PBXNativeTarget "Crypto Tracker my" */;
 			buildPhases = (
+				343D73C90B4EB380577844A5 /* [CP] Check Pods Manifest.lock */,
 				7B3FCFC3219A51EB003BE8D9 /* Sources */,
 				7B3FCFC4219A51EB003BE8D9 /* Frameworks */,
 				7B3FCFC5219A51EB003BE8D9 /* Resources */,
+				D218333E708960DFA4836BE8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Crypto Tracker";
+			name = "Crypto Tracker my";
 			productName = "Crypto Tracker";
-			productReference = 7B3FCFC7219A51EB003BE8D9 /* Crypto Tracker.app */;
+			productReference = 7B3FCFC7219A51EB003BE8D9 /* Crypto Tracker my.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B3FCFC2219A51EB003BE8D9 /* Build configuration list for PBXProject "Crypto Tracker" */;
+			buildConfigurationList = 7B3FCFC2219A51EB003BE8D9 /* Build configuration list for PBXProject "Crypto Tracker my" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B3FCFC6219A51EB003BE8D9 /* Crypto Tracker */,
+				7B3FCFC6219A51EB003BE8D9 /* Crypto Tracker my */,
 			);
 		};
 /* End PBXProject section */
@@ -124,18 +153,66 @@
 			files = (
 				7B3FCFD5219A51EF003BE8D9 /* LaunchScreen.storyboard in Resources */,
 				7B3FCFD2219A51EF003BE8D9 /* Assets.xcassets in Resources */,
-				7B3FCFD0219A51EB003BE8D9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		343D73C90B4EB380577844A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Crypto Tracker my-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D218333E708960DFA4836BE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Crypto Tracker my/Pods-Crypto Tracker my-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Crypto Tracker my/Pods-Crypto Tracker my-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7B3FCFC3219A51EB003BE8D9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B3FCFCD219A51EB003BE8D9 /* ViewController.swift in Sources */,
+				7B3FCFE1219A60DC003BE8D9 /* CryptoTableVCtrl_save.swift in Sources */,
+				7B3FCFDF219A5A5E003BE8D9 /* CoinData.swift in Sources */,
+				7B3FCFDD219A54DA003BE8D9 /* CryptoTableViewController.swift in Sources */,
 				7B3FCFCB219A51EB003BE8D9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +220,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7B3FCFCE219A51EB003BE8D9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7B3FCFCF219A51EB003BE8D9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7B3FCFD3219A51EF003BE8D9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,6 +349,7 @@
 		};
 		7B3FCFDA219A51EF003BE8D9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 087B3E7E1AF84D8871348189 /* Pods-Crypto Tracker my.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -289,7 +359,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alpine.Crypto-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alpine.Crypto-Tracker-my";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,6 +368,7 @@
 		};
 		7B3FCFDB219A51EF003BE8D9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC37487B6F60B21FB6325403 /* Pods-Crypto Tracker my.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -307,7 +378,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.alpine.Crypto-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alpine.Crypto-Tracker-my";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,7 +388,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B3FCFC2219A51EB003BE8D9 /* Build configuration list for PBXProject "Crypto Tracker" */ = {
+		7B3FCFC2219A51EB003BE8D9 /* Build configuration list for PBXProject "Crypto Tracker my" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B3FCFD7219A51EF003BE8D9 /* Debug */,
@@ -326,7 +397,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B3FCFD9219A51EF003BE8D9 /* Build configuration list for PBXNativeTarget "Crypto Tracker" */ = {
+		7B3FCFD9219A51EF003BE8D9 /* Build configuration list for PBXNativeTarget "Crypto Tracker my" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B3FCFDA219A51EF003BE8D9 /* Debug */,
