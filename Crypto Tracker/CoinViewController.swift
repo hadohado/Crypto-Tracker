@@ -9,8 +9,11 @@
 import UIKit
 import SwiftChart
 
+private let chartHeight : CGFloat = 300.0
+
 class CoinViewController: UIViewController {
 
+    var chart = Chart()
     var coin : Coin?
     
     override func viewDidLoad() {
@@ -18,18 +21,15 @@ class CoinViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         view.backgroundColor = UIColor.white
-        coin?.price
+        // coin?.price
+        chart.frame = CGRect(x: 0, y: 0, width: view.frame.size.width, height: chartHeight)
+        let series = ChartSeries([0, 6, 2, 8, 4, 7, 3, 10, 8])
+        series.color = ChartColors.greenColor()
+        chart.add(series)
+        view.addSubview(chart)
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
+    
 
 }
