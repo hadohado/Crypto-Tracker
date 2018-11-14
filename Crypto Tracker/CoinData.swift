@@ -52,24 +52,21 @@ class CoinData {
             // print(responseObject.result.value ?? <#default value#>)
             // 1st dictionary {BTC = __ ; ETH = __ ; LTC = __ }
             // inside 1st dictionary are 3 sub dictionaries { USD = __ } ...
-            //
             // Optional({
             //    BTC =     { USD = "6358.6"; };
             //    ETH =     { USD = "206.81"; };
             //    LTC =     { USD = "49.65";  };
             // })
- 
         }
-        
         /*
         Alamofire.request("https://min-api.cryptocompare.com/data/pricemulti?fsyms=\(listOfSymbols)&tsyms=USD").responseJSON { (<#DataResponse<Any>#>) in
-            <#code#>
-        } */
+            <#code#>   } */
     }
 }
 
 @objc protocol CoinDataDelegate : class { // need @objc so that we can define an optional for newPrices()
     @objc optional func newPrices()
+    @objc optional func newHistory()
 }
 
 // protocol CoinDataDelegate  {
@@ -88,6 +85,27 @@ class Coin {
             self.image = newimage
         }
     }
+    
+    
+    func getHistoricalData() {
+        Alamofire.request("https://min-api.cryptocompare.com/data/histoday?fsym=\(symbol)&tsym=USD&limit=30").responseJSON { (response) in
+            print("getHistoricalData response = ", response.result.value)
+            // print(response)
+            if let json = response.result.value as? [String: Any] {
+                if let pricesJSON = json["Data"] as? [[String:Double]] {
+                    self.historicalData = []
+                    for priceJSON in pricesJSON {
+                        if let closePrice = priceJSON["close"] {
+                            self.historicalData.append(closePrice)
+                        }
+                    }
+                    CoinData.shared.delegate?.newHistory!()
+                    // CoinData.shared.delegate?.newHistory()
+                }
+            }
+        }
+    }
+    
     
     func priceAsString() -> String {
         if price == 0.0 {
