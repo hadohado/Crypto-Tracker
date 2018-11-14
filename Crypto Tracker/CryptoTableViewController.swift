@@ -45,7 +45,7 @@ class CryptoTableViewController: UITableViewController, CoinDataDelegate {
         let cell = UITableViewCell()
         // Configure the cell...
         let coin = CoinData.shared.coins[indexPath.row]
-        cell.textLabel?.text = "\(coin.symbol) - \(coin.price)" // <- get called before API can come back with price, so we need a "delegate"
+        cell.textLabel?.text = "\(coin.symbol) - \(coin.priceAsString())" // <- get called before API can come back with price, so we need a "delegate"
         // cell.textLabel?.text = coin.symbol
         cell.imageView?.image = coin.image
         return cell

@@ -88,4 +88,19 @@ class Coin {
             self.image = newimage
         }
     }
+    
+    func priceAsString() -> String {
+        if price == 0.0 {
+            return "Loading..."
+        }
+        let formater = NumberFormatter()
+        formater.locale = Locale.init(identifier: "en_US")
+        formater.numberStyle = .currency
+        if let fancyPrice = formater.string(from: NSNumber(floatLiteral: price) ) {
+            return fancyPrice
+        }
+        else {
+            return "ERROR"
+        }
+    }
 }
