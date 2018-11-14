@@ -7,5 +7,5 @@ target 'Crypto Tracker my' do
 
   # Pods for Crypto Tracker my
  pod "Alamofire", "4.7.2"
-
+ pod "SwiftChart", "1.0.1"
 end

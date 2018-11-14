@@ -13,7 +13,7 @@
 		7B3FCFD5219A51EF003BE8D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3FCFD3219A51EF003BE8D9 /* LaunchScreen.storyboard */; };
 		7B3FCFDD219A54DA003BE8D9 /* CryptoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3FCFDC219A54DA003BE8D9 /* CryptoTableViewController.swift */; };
 		7B3FCFDF219A5A5E003BE8D9 /* CoinData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3FCFDE219A5A5E003BE8D9 /* CoinData.swift */; };
-		7B3FCFE1219A60DC003BE8D9 /* CryptoTableVCtrl_save.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3FCFE0219A60DC003BE8D9 /* CryptoTableVCtrl_save.swift */; };
+		7B54E261219BCB2000D93546 /* CoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B54E260219BCB2000D93546 /* CoinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +25,7 @@
 		7B3FCFD6219A51EF003BE8D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7B3FCFDC219A54DA003BE8D9 /* CryptoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewController.swift; sourceTree = "<group>"; };
 		7B3FCFDE219A5A5E003BE8D9 /* CoinData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinData.swift; sourceTree = "<group>"; };
-		7B3FCFE0219A60DC003BE8D9 /* CryptoTableVCtrl_save.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CryptoTableVCtrl_save.swift; sourceTree = "<group>"; };
+		7B54E260219BCB2000D93546 /* CoinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewController.swift; sourceTree = "<group>"; };
 		DC37487B6F60B21FB6325403 /* Pods-Crypto Tracker my.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Crypto Tracker my.release.xcconfig"; path = "Pods/Target Support Files/Pods-Crypto Tracker my/Pods-Crypto Tracker my.release.xcconfig"; sourceTree = "<group>"; };
 		F493086CEA0933C355A8AD45 /* Pods_Crypto_Tracker_my.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Crypto_Tracker_my.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,9 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				7B3FCFCA219A51EB003BE8D9 /* AppDelegate.swift */,
-				7B3FCFDE219A5A5E003BE8D9 /* CoinData.swift */,
 				7B3FCFDC219A54DA003BE8D9 /* CryptoTableViewController.swift */,
-				7B3FCFE0219A60DC003BE8D9 /* CryptoTableVCtrl_save.swift */,
+				7B54E260219BCB2000D93546 /* CoinViewController.swift */,
+				7B3FCFDE219A5A5E003BE8D9 /* CoinData.swift */,
 				7B3FCFD1219A51EF003BE8D9 /* Assets.xcassets */,
 				7B3FCFD3219A51EF003BE8D9 /* LaunchScreen.storyboard */,
 				7B3FCFD6219A51EF003BE8D9 /* Info.plist */,
@@ -191,12 +191,14 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Crypto Tracker my/Pods-Crypto Tracker my-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftChart/SwiftChart.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftChart.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -210,10 +212,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B3FCFE1219A60DC003BE8D9 /* CryptoTableVCtrl_save.swift in Sources */,
 				7B3FCFDF219A5A5E003BE8D9 /* CoinData.swift in Sources */,
 				7B3FCFDD219A54DA003BE8D9 /* CryptoTableViewController.swift in Sources */,
 				7B3FCFCB219A51EB003BE8D9 /* AppDelegate.swift in Sources */,
+				7B54E261219BCB2000D93546 /* CoinViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

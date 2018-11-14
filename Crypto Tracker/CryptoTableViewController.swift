@@ -51,6 +51,13 @@ class CryptoTableViewController: UITableViewController, CoinDataDelegate {
         return cell
     }
     
+    // 2_7  type didSelect  then tab to get this
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let coinVC = CoinViewController()
+        coinVC.coin = CoinData.shared.coins[indexPath.row]
+        // pushViewController is same as segue
+        navigationController?.pushViewController(coinVC, animated: true)
+    }
 
     
 }
