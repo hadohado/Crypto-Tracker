@@ -1,0 +1,500 @@
+   15  vi hist1 
+   16  ls -ltr
+   17  cat comand.sh 
+   18  ls -ltr
+   19  cd my-app1/
+   20  cd only1
+   21  ls
+   22  ls -lt
+   23  ls -ltr
+   24  mkdir _107_apollo
+   25  cd _107_apollo
+   26  npm install apollo-boost react-apollo graphql --save
+   27  ls
+   28  ls node_modules/
+   29  ls
+   30  ls
+   31  history | tail > HIS
+   32  vi HIS
+   33  mv ~/Downloads/Get_started-Apollo_Client.pdf .
+   34  mv ~/Downloads/Apollo_Client_bring_graphql_data_to_your_UI.pdf .
+   35  ls -ltr
+   36  create-react-app
+   37  npx create-react-app my-app
+   38  node --version
+   39  sudo npm cache clean -f
+   40  node --version
+   41  sudo npm install -g n
+   42  sudo n stable
+   43  node --version
+   44  ls
+   45  ls -ltr
+   46  npx create-react-app my-app
+   47  history > history1
+   48  vi history1
+   49  ls
+   50  ls -ltr
+   51  mkdir _doc
+   52  mv *pdf _doc
+   53  ls
+   54  ls -ltr
+   55  cd my-app/
+   56  tail ../history1 
+   57  yarn start
+   58  bg
+   59  ls -ltr
+   60  cd src
+   61  ls -ltr
+   62  vi NOTE_to_myself
+   63  vi App.js 
+   64  vi App.js 
+   65  vi index.js 
+   66  vi index.js 
+   67  vi index.js 
+   68  vi index.js 
+   69  fg
+   70  npm install -g create-react-app
+   71  ls -ltr
+   72  ls -ltr ..
+   73  cd ..
+   74  ls
+   75  ls -ltr
+   76  pwd
+   77  cd ..
+   78  cd
+   79  cd only1
+   80  ls
+   81  ls -ltr
+   82  cd _120_react/
+   83  ls
+   84  ls -ltr
+   85  vi hist1 
+   86  ls
+   87  cd my-app1/
+   88  ls
+   89  mv src src_save
+   90  mkdir src
+   91  ls
+   92  cd src
+   93  touch index.js
+   94  touch index.css
+   95  pwd
+   96  ls
+   97  vi index.js 
+   98  pwd
+   99  cd ..
+  100  npm start
+  101  npm start
+  102  npm start
+  103  npm start
+  104  npm start
+  105  cd only1
+  106  ls
+  107  ls -ltr
+  108  cd _120_react/
+  109  ls
+  110  ls -ltr
+  111  cd my-app1/
+  112  ls
+  113  pwd
+  114  npm start
+  115  ls
+  116  cd src
+  117  ls
+  118  ls -ltr
+  119  vi index.js
+  120  pwd
+  121  cd ..
+  122  npm start
+  123  cd only1
+  124  cd _120_react/
+  125  ls
+  126  cd my-app1/
+  127  ls -ltr
+  128  cd src
+  129  ls -tr
+  130  vi App.js
+  131  pwd
+  132  cd ..
+  133  ls -ltr
+  134  tar -cvf src.tar ./src
+  135  gzip *tar
+  136  cd src
+  137  vi App.js 
+  138  pwd
+  139  ls
+  140  cd ..
+  141  ls
+  142  ls -ltr
+  143  cd src
+  144  mkdir components
+  145  ls
+  146  vi App.js
+  147  vi index.js
+  148  pwd
+  149  ls
+  150  vi components/mycomp1.js
+  151  vi App.js
+  152  vi App.js
+  153  pwd
+  154  ls
+  155  vi components/mycomp1.js 
+  156  ls
+  157  pwd
+  158  grep compo *js
+  159  pwd
+  160  cd ..
+  161  ls
+  162  ls public/
+  163  grep comp public/index.html 
+  164  cd src
+  165  grep Comp *js
+  166  vi App.js
+  167  pwd
+  168  vi components/mycomp1.js 
+  169  vi components/mycomp1.js 
+  170  vi App.js
+  171  vi components/mycomp1.js 
+  172  vi components/mycomp1.js 
+  173  vi App.js
+  174  vi App.js
+  175  ls
+  176  vi index.js
+  177  vi index.js
+  178  cd components/
+  179  ls
+  180  mv mycomp1.js  Mycomp1.js
+  181  vi Mycomp1.js
+  182  pwd
+  183  cd ..
+  184  vi App.js
+  185  vi App.js
+  186  vi App.js
+  187  vi components/Mycomp1.js 
+  188  vi App.js
+  189  vi App.js
+  190  vi index.js
+  191  vi App.js
+  192  cp App.js App.js_x
+  193  vi App.js
+  194  vi components/Mycomp1.js 
+  195  vi components/Mycomp1.js 
+  196  vi App.js
+  197  ls components/Mycomp1.js 
+  198  vi App.js
+  199  vi components/Mycomp1.js 
+  200  vi components/Mycomp1.js 
+  201  vi components/Mycomp1.js 
+  202  vi App.js
+  203  vi components/Mycomp1.js 
+  204  vi components/Mycomp1.js 
+  205  cd components/
+  206  ls
+  207  mv Mycomp1.js  MyComp1.js
+  208  vi MyComp1.js
+  209  cd ..
+  210  vi App.
+  211  vi App.js
+  212  cd components/
+  213  mv MyComp1.js MyComp1.js_
+  214  cp MyComp1.js_ MyComp1.js
+  215  vi MyComp1.js
+  216  vi MyComp1.js
+  217  vi MyComp1.js
+  218  cd only1
+  219  cd _120_react/
+  220  ls -ltr
+  221  mv ~/Downloads/scotch-react-todo-master .
+  222  ls
+  223  mv scotch-react-todo-master/ scotch-react-todo
+  224  cd scotch-react-todo
+  225  ls
+  226  yarn star
+  227  yarn start
+  228  npm install
+  229  npm start
+  230  ls
+  231  ls
+  232  ls -ltr
+  233  ls public/
+  234  pwd
+  235  ls
+  236  ls public/
+  237  ls
+  238  vi README.md 
+  239  ls
+  240  vi package.json 
+  241  npm start
+  242  npm build
+  243  pwd
+  244  vi package.json 
+  245  npm serve
+  246  npm run serve
+  247  mongod
+  248  cd only1
+  249  ls
+  250  ls -ltr
+  251  ls | grep thanh
+  252  mkdir _121_thanh
+  253  cd _121_thanh
+  254  mv ~/Downloads/Angular1-Blog-News-master* .
+  255  mv ~/Downloads/Template-example-master* .
+  256  ls
+  257  ls -ltr
+  258  mv Template-example-master Template-example
+  259  mv Angular1-Blog-News-master Angular1-Blog-News
+  260  ks
+  261  ls
+  262  cd Template-example
+  263  ls
+  264  cd ..
+  265  ls
+  266  cd Angular1-Blog-News
+  267  ls
+  268  gulp
+  269  brew install gulp
+  270  sudo npm install --global gulp
+  271  ls
+  272  gulp
+  273  /usr/local/bin/gulp
+  274  npm install gulp
+  275  gulp
+  276  ls
+  277  npm install
+  278  gulp
+  279  npm start
+  280  ls
+  281  ls bin
+  282  vi package.json 
+  283  ls models/
+  284  ls public/
+  285  ls
+  286  gulp sass
+  287  npm install gulp-nodemon
+  288  npm start
+  289  gulp sass
+  290  s
+  291  gulp
+  292  gulp connect
+  293  gulp
+  294  ls
+  295  vi gulpfile.js 
+  296  gulp build
+  297  gulp start
+  298  vi gulpfile.js 
+  299  gulp
+  300  gulp watch
+  301  ls
+  302  gulp dev
+  303  gulp dev
+  304  history > history1
+  305  vi history1
+  306  history > command.sh
+  307  vi command.sh
+  308  ls -ltr
+  309  pwd
+  310  vi ~/only1/RECORD_OF_ALL_ACTIVITES.sh 
+  311  code .
+  312  cd only1
+  313  cd _120_react/
+  314  cd Blog-Tutorial
+  315  ls
+  316  cd server/
+  317  ls -ltr
+  318  node app.js 
+  319  ls
+  320  ls models/
+  321  ls
+  322  pwd
+  323  npm install
+  324  node app.js
+  325  npm install express
+  326  node app.js
+  327  npm express-session
+  328  npm install express-session
+  329  node app.js
+  330  npm install cors
+  331  node app.js
+  332  npm install errorhandler
+  333  node app.js
+  334  pw
+  335  pwd
+  336  ls
+  337  vi package-lock.json 
+  338  cp package-lock.json package.json
+  339  npm 
+  340  npm start
+  341  ls
+  342  vi package.json 
+  343  vi package.json 
+  344  npm install
+  345  node app.js
+  346  ls
+  347  ls node_modules/
+  348  ls
+  349  ls node_modules/
+  350  mv package-lock.json  ../.
+  351  npm install
+  352  ls
+  353  vi node_modules/
+  354  vi package.json 
+  355  ls
+  356  rm package*
+  357  ls
+  358  mv ../package-lock.json .
+  359  node app.js
+  360  npm install express
+  361  node app.js
+  362  npm install express-session
+  363  node app.js
+  364  npm install cors
+  365  node app.js
+  366  npm install errorhanlder
+  367  node app.js
+  368  npm install errorhandler
+  369  node app.js
+  370  npm install mongoose
+  371  node app.js
+  372  s
+  373  npm install morgan
+  374  node app.js
+  375  node app.js
+  376  node app.js
+  377  pwd
+  378  ls -ltr
+  379  cd counter-app2/
+  380  ls
+  381  cd only1
+  382  cd _120_react/
+  383  ls -ltr
+  384  cd _moshtube/
+  385  ls
+  386  ls -ltr
+  387  tar -cvf counter-app5-v1.tar ./counter-app5/
+  388  ls -ltr
+  389  gzip counter-app5-v1.tar 
+  390  ls -ltr
+  391  pwd
+  392  ls -ltr
+  393  cd counter-app5
+  394  ls
+  395  tar -cvf node_modules.tar ./node_modules/
+  396  ls -ltr
+  397  mv node_modules.tar  ../.
+  398  ls
+  399  ls -ltr
+  400  \rm -r node_modules/
+  401  du -sh
+  402  cd ..
+  403  ls -ltr
+  404  tar -cvf counter-app5-v2-no_node_module.tar ./counter-app5
+  405  ls -ltr
+  406  gzip *tar
+  407  ls -ltr
+  408  cp node_modules.tar.gz counter-app5
+  409  cd counter-app5
+  410  ls -ltr
+  411  gunzip node_modules.tar.gz 
+  412  tar -xvf node_modules.tar 
+  413  ls -ltr
+  414  rm *tar
+  415  pwd
+  416  cd ..
+  417  ls -ltr
+  418  cd counter-app5
+  419  ls
+  420  mv node_modules/ ..
+  421  mv node_modules ../.
+  422  pwd
+  423  ls -ltr
+  424  ls node_modules/
+  425  cd ..
+  426  ls
+  427  ls -ltr
+  428  ls -ltr node_modules
+  429  \rm -r node_modules
+  430  mv counter-app5/node_modules/ .
+  431  ls
+  432  ls -ltr
+  433  tar -cvf counter-app5-v3-no-node_module.tar ./counter-app5
+  434  ls -ltr
+  435  gzip *tar
+  436  ls -ltr
+  437  mv node_modules counter-app5/.
+  438  cd counter-app5/.
+  439  ls -ltr
+  440  mvscreen
+  441  ls -ltr
+  442  pwd
+  443  mv node_modules ..
+  444  cd ..
+  445  ls -ltr
+  446  tar -cvf counter-app5-v5-no-node-delete-work-but-code-not-match-lecture.tar ./counter-app5
+  447  ls 0ltr
+  448  ls -ltr
+  449  gzip *tar
+  450  ls -ltr
+  451  mv node_modules counter-app5/.
+  452  pwd
+  453  cd counter-app5
+  454  ls -ltr
+  455  mv node_modules ../.
+  456  cd ..
+  457  ls -ltr
+  458  tar -cvf counter-app5-v8-no-node-delete-ok.tar ./counter-app5
+  459  ls -ltr
+  460  gzip *tar
+  461  mv node_modules counter-app5/.
+  462  ls -ltr
+  463  pwd
+  464  mv counter-app5/node_modules .
+  465  tar -cvf counter-app5-v9-send-several-props-to-child-Counter.tar ./counter-app5
+  466  ls -ltr
+  467  gzip *tar
+  468  mv node_modules counter-app5/.
+  469  mv counter-app5/node_modules/ .
+  470  tar -cvf counter-app5-v10-send-only-counter-in-render.tar ./counter-app5
+  471  gzip *tar
+  472  mv node_modules counter-app5/.
+  473  ls -ltr
+  474  find . -name \*.xcodeproj
+  475  find . -name \*.xcodeproj > where_all_xc_proj
+  476  ls -ltr
+  477  fg
+  478  mvscreen
+  479  cd Documents/
+  480  cd SOFTWARE
+  481  ls
+  482  cd _ios_10day_advanced/
+  483  ls
+  484  vi where_get_crypto_icon.explain
+  485  vi
+  486  cd Documents/
+  487  ls
+  488  ls -ltr
+  489  cd SOFTWARE
+  490  ls
+  491  cd _ios_10day_advanced/
+  492  ls
+  493  vi where_get_crypto_icon.explain 
+  494  mvscreen
+  495  cd Documents/
+  496  cd SOFTWARE
+  497  ls
+  498  cd _ios_10day_advanced/
+  499  ls
+  500  vi where_get_crypto_icon.explain 
+  501  cd Documents/
+  502  cd SOFTWARE
+  503  ls
+  504  cd _ios_10day_advanced/
+  505  ls
+  506  cd Crypto\ Tracker
+  507  ls
+  508  pod init
+  509  ls
+  510  sudo gem install cocoapods
+  511  pwd
+  512  ls
+  513  pod init
+  514  history > HIS
