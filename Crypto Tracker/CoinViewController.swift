@@ -30,6 +30,8 @@ class CoinViewController: UIViewController, CoinDataDelegate {
         // chart.add(series)
         
         chart.yLabelsFormatter = { CoinData.shared.doubleToMoneyString(double: $1)}
+        chart.xLabels = [30, 25, 20, 15, 10, 5, 0]
+        chart.xLabelsFormatter = { String(Int(round(30 - $1))) + "d" }
         view.addSubview(chart)
         coin?.getHistoricalData()   
     }
