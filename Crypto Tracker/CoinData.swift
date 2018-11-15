@@ -62,6 +62,18 @@ class CoinData {
         Alamofire.request("https://min-api.cryptocompare.com/data/pricemulti?fsyms=\(listOfSymbols)&tsyms=USD").responseJSON { (<#DataResponse<Any>#>) in
             <#code#>   } */
     }
+    
+    func doubleToMoneyString (double: Double ) -> String {
+        let formater = NumberFormatter()
+        formater.locale = Locale.init(identifier: "en_US")
+        formater.numberStyle = .currency
+        if let fancyPrice = formater.string(from: NSNumber(floatLiteral: double) ) {
+            return fancyPrice
+        }
+        else {
+            return "ERROR"
+        }
+    }
 }
 
 @objc protocol CoinDataDelegate : class { // need @objc so that we can define an optional for newPrices()
@@ -111,6 +123,7 @@ class Coin {
         if price == 0.0 {
             return "Loading..."
         }
+        /*
         let formater = NumberFormatter()
         formater.locale = Locale.init(identifier: "en_US")
         formater.numberStyle = .currency
@@ -120,5 +133,8 @@ class Coin {
         else {
             return "ERROR"
         }
+         */
+        return CoinData.shared.doubleToMoneyString(double: price)
+        
     }
 }
